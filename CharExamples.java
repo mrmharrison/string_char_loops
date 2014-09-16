@@ -14,5 +14,16 @@ public class CharExamples{
 
 	String name = "Dom Rech";
 	char[] lttrs = name.toCharArray();
+
+	for(int i =0 ;i <lttrs.length; i++)
+		System.out.println(lttrs[i]);
+
+
+	//now , let's use charAt
+	
+	for(int i =0 ;i < name.length(); i++)
+		{	
+		System.out.println(name.substring(i, i + 1 )) ;	
+		}
 	}
 }
